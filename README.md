@@ -27,10 +27,9 @@ Available tags
 Base images:
 
 - `latest` ([Dockerfile](https://github.com/edoburu/docker-pgbouncer/blob/master/Dockerfile)) - Default and latest version.
+- `1.15.0` ([Dockerfile](https://github.com/edoburu/docker-pgbouncer/blob/v1.15.x/Dockerfile)) - Latest version.
+- `1.14.0` ([Dockerfile](https://github.com/edoburu/docker-pgbouncer/blob/v1.14.x/Dockerfile)) - Latest version.
 - `1.12.0` ([Dockerfile](https://github.com/edoburu/docker-pgbouncer/blob/v1.12.x/Dockerfile)) - Latest version.
-- `1.11.0` ([Dockerfile](https://github.com/edoburu/docker-pgbouncer/blob/v1.11.x/Dockerfile)) - previous version.
-- `1.9.0` ([Dockerfile](https://github.com/edoburu/docker-pgbouncer/blob/v1.9.x/Dockerfile))
-- `1.8.1` ([Dockerfile](https://github.com/edoburu/docker-pgbouncer/blob/v1.8.x/Dockerfile))
 
 Images are automatically rebuild on Alpine Linux updates.
 
@@ -84,6 +83,12 @@ Kubernetes integration
 ----------------------
 
 For example in Kubernetes, see the [examples/kubernetes folder](https://github.com/edoburu/docker-pgbouncer/tree/master/examples/kubernetes).
+
+
+Docker Compose
+--------------
+
+For example in Docker Compose, see the [examples/docker-compose folder](https://github.com/edoburu/docker-pgbouncer/tree/master/examples/docker-compose).
 
 
 PostgreSQL configuration
